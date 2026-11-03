@@ -1,0 +1,11 @@
+Build-Prüfung: 04.11.2026
+
+Toolchain: Arm-GCC 12.3.1 (GNU Tools for STM32).
+Debug: Kompilieren und Linken erfolgreich; 1 Linkerwarnung.
+Release: Kompilieren und Linken erfolgreich; 1 Linkerwarnung.
+
+Warnung in beiden Profilen:
+firmware.elf has a LOAD segment with RWX permissions
+
+Build über tools/build.py. STM32CubeIDE-Import noch nicht geprüft.
+Keine Hardwaretests, keine gemessene Drehzahl und keine gemessene Pulszahl.
